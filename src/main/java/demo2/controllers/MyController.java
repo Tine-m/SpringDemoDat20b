@@ -17,7 +17,7 @@ public class MyController {
     @GetMapping("/hello")
     @ResponseBody
     public String helloWorld() {
-        return "Hello World";
+        return "Hello World!";
     }
 
     //A parameter is provided by localhost:8080?[name of RequestParam]=[Parameter]
